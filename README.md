@@ -51,7 +51,9 @@
 | 5   |                                          |               |              |
 | 5   | items.html is missing a container        |   Guntesh     |   Guntesh    |
 | 6   |    analytics.html doesnt show navbar     |   Guntesh     |   Guntesh    |
-| 7   |                                          |               |              |
+| 7   |   added routers to main.py, fixed 
+
+prefixes                                         |   Avani       |     Avani    |
 | 8   |                                          |               |              |
 | 9   |                                          |               |              |
 | 10  |                                          |               |              |
