@@ -28,26 +28,52 @@
   </div>
 
   <script>
-    // Function to update the user count
+    // Array to store all users
+    let users = [];
+
+    // Function to update the user count based on visible users
     function updateUserCount() {
       const userList = document.getElementById('userList');
       const userCount = userList.children.length;
       document.getElementById('userCounts').textContent = `Total users: ${userCount}`;
     }
-  
+
+    // Function to render the user list (filtered or all users)
+    function renderUserList(filteredUsers) {
+      const userList = document.getElementById('userList');
+      userList.innerHTML = ''; // Clear current list
+      filteredUsers.forEach(user => {
+        const li = document.createElement('li');
+        li.textContent = `${user.username}: ${user.bio}`; // Fixed: use user.bio instead of bio
+        userList.appendChild(li);
+      });
+      updateUserCount(); // Update count after rendering
+    }
+
     // Handle form submission
     document.getElementById('userForm').addEventListener('submit', function (e) {
       e.preventDefault();
       const username = document.getElementById('username').value;
       const bio = document.getElementById('bio').value;
-      const userList = document.getElementById('userList');
-      const li = document.createElement('li');
-      li.textContent = `${username}: ${bio}`;
-      userList.appendChild(li);
+      // Add user to array
+      users.push({ username, bio });
+      // Render all users (no filter)
+      renderUserList(users);
       document.getElementById('userForm').reset();
-      updateUserCount(); // Update count after adding user
     });
-  
+
+    // Handle search input
+    document.getElementById('search').addEventListener('keyup', function (e) {
+      const query = e.target.value.toLowerCase();
+      // Filter users based on username or bio
+      const filteredUsers = users.filter(user =>
+        user.username.toLowerCase().includes(query) ||
+        user.bio.toLowerCase().includes(query)
+      );
+      // Render filtered users
+      renderUserList(filteredUsers);
+    });
+
     // Initialize user count on page load
     updateUserCount();
   </script>
