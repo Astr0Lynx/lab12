@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>News Feed</title>
+  <title>Profiles</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -12,20 +12,21 @@
     <a href="profile.html">Profile</a>
     <a href="analytics.html">Analytics</a>
     <a href="news.html">News</a>
+    <a href="quiz.html">Quiz</a>
   </nav>
-  <!-- Did I make this code buggy ??? -->
   <div class="container">
-    <h1>📰 News Feed</h1>
-    <p id="articleCount">Total articles: 0</p>
-    <input type="text" id="search" placeholder="Search news..." />
-    <select id="source">
-      <option value="all">All Sources</option>
-      <option value="bbc">BBC</option>
-      <option value="guardian">The Guardian</option>
-    </select>
-    <div id="newsList" class="news-scrollable"></div>
-    <div id="loading" style="display: none;">Loading...</div>
+    <!-- Please suggest some good music, I am tired of my playlist -->
+    <p id="userCounts">Total users: 0</p>
+    <input type="text" id="search" placeholder="Search users..." />
+    <h1>🧑 User Profiles</h1>
+    <form id="userForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="text" id="bio" placeholder="Bio" required />
+      <button type="submit">Add User</button>
+    </form>
+    <ul id="userList"></ul>
   </div>
-  <script src="scripts/news.js"></script>
+
+  <script src="styles/profile.js"></script>
 </body>
 </html>

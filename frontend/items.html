@@ -14,14 +14,25 @@
     <a href="news.html">News</a>
     <a href="quiz.html">Quiz</a>
   </nav>
+
   <div class="container">
-    <h1>📦 Items</h1>
-    <p>Manage your items here.</p>
-    <form id="itemForm">
-      <input type="text" id="itemName" placeholder="Item Name" required />
-      <button type="submit">Add Item</button>
-    </form>
-    <ul id="itemList"></ul>
+    
+
+    <p>Total items: <span id="itemCount">0</span></p>
+
+    <input type="text" id="search" placeholder="Search items..." />
+    <h1>📦 Manage Items</h1>
+
+    <br /><br />
+
+    <input type="text" id="itemName" placeholder="Item Name" />
+    <input type="text" id="itemDesc" placeholder="Description" />
+    <button id="addItem">Add Item</button>
+
+    <ul id="itemList">
+      <!-- Items will be added here -->
+    </ul>
+
   </div>
   <script src="scripts/items.js"></script>
 </body>
