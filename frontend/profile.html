@@ -25,7 +25,30 @@
     </form>
     <ul id="userList"></ul>
   </div>
-
+  <script>
+    // Function to update the user count
+    function updateUserCount() {
+      const userList = document.getElementById('userList');
+      const userCount = userList.children.length;
+      document.getElementById('userCounts').textContent = `Total users: ${userCount}`;
+    }
+  
+    // Handle form submission
+    document.getElementById('userForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const username = document.getElementById('username').value;
+      const bio = document.getElementById('bio').value;
+      const userList = document.getElementById('userList');
+      const li = document.createElement('li');
+      li.textContent = `${username}: ${bio}`;
+      userList.appendChild(li);
+      document.getElementById('userForm').reset();
+      updateUserCount(); // Update count after adding user
+    });
+  
+    // Initialize user count on page load
+    updateUserCount();
+  </script>
   <script src="styles/profile.js"></script>
 </body>
 </html>
