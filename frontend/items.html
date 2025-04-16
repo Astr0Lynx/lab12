@@ -12,9 +12,17 @@
     <a href="profile.html">Profile</a>
     <a href="analytics.html">Analytics</a>
     <a href="news.html">News</a>
+    <a href="quiz.html">Quiz</a>
   </nav>
-  <!-- fuck I think I deleted a container, god help me-->
-
+  <div class="container">
+    <h1>📦 Items</h1>
+    <p>Manage your items here.</p>
+    <form id="itemForm">
+      <input type="text" id="itemName" placeholder="Item Name" required />
+      <button type="submit">Add Item</button>
+    </form>
+    <ul id="itemList"></ul>
+  </div>
   <script src="scripts/items.js"></script>
 </body>
 </html>
