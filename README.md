@@ -46,34 +46,42 @@
 |     |                                          |               |              |
 | 4   | Analytics.html has incorrect path        |               |              |
 |     |  (styles/analytics.js)                   |   Nikhita     |   Nikhita    |
-| 4   | collection name typo in db.py changed to |     Avani     |    Avani     |                
+| 5   | collection name typo in db.py changed to |     Avani     |    Avani     |             
 |     |  items                                   |               |              |
-| 5   |                                          |               |              |
-| 5   | items.html is missing a container        |   Guntesh     |   Guntesh    |
-| 6   |    analytics.html doesnt show navbar     |   Guntesh     |   Guntesh    |
-| 7   |   added routers to main.py, fixed 
-
-prefixes                                         |   Avani       |     Avani    |
-| 8   | incorrect router declaration in items.py |  Vaishnavi    |   Vaishnavi  |
-| 9   | duplicate posting in items.py            |  Vaishnavi    |   Vaishnavi  |
-| 10  |                                          |               |              |
-| 11  |                                          |               |              |
-| 12  |                                          |               |              |
-| 13  |                                          |               |              |
-| 14  |                                          |               |              |
-| 15  |                                          |               |              |
-| 16  |                                          |               |              |
-| 17  |                                          |               |              |
-| 18  |                                          |               |              |
-| 19  |                                          |               |              |
-| 20  |                                          |               |              |
-| 21  |                                          |               |              |
-| 22  |                                          |               |              |
-| 23  |                                          |               |              |
-| 24  |                                          |               |              |
-| 25  |                                          |               |              |
-| 26  |                                          |               |              |
+|     |                                          |               |              |
+| 6   | items.html is missing a container        |   Guntesh     |   Guntesh    |
+| 7   |    analytics.html doesnt show navbar     |   Guntesh     |   Guntesh    |
+| 8   |   added routers to main.py, fixed        |   Avani       |     Avani    |
+                prefixes                         |               |              |
+| 9   | incorrect router declaration in items.py |  Vaishnavi    |   Vaishnavi  |
+| 10  | duplicate posting in items.py            |  Vaishnavi    |   Vaishnavi  |
+| 11  | Added singleton pattern to reuse client  |    Avani      |    Avani     |
+        in  main.py                              |               |              |
+| 12  | Added users_router and  news_routers     |    Avani      |    Avani     |
+        to main.py                               |               |              |
+| 13  |   Fixed Item to inherit BaseModel        |    Avani      |    Avani     |
+        in models.py                             |               |              |
+| 14  | Added _id handling with PyObjectId for   |    Avani      |    Avani     |
+        for MongoDB compatibility                |               |              |                        
+| 15  | Changed baseURL to 8001 in analytics.js  |   Guntesh     |   Guntesh    |
+| 16  | Changed Content-Type to application/json |   Guntesh     |   Guntesh    |                                      
+| 17  | Changed deleteItem method to DELETE      |   Guntesh     |   Guntesh    |
+|     | <these changes in items.js>              |               |              |
+| 18  | Missing container in items.html          |   Guntesh     |   Guntesh    |                              
+| 19  | Fixed header bar in Analytics page       |   Guntesh     |   Guntesh    |                                  
+| 20  | questions.py  always returning first q   |   Nikhita     |   Nikhita    |  
+        not random one                           |               |              |
+| 21  | changed data.plot to data.chart in       |   Nikhita     |   Nikhita    |
+        analytics.py  and returned chart         |               |              |
+| 22  |  fixed incorrect path in analytics.html  |   Nikhita     |   Nikhita    |
+        and profile.html                         |               |              |
+| 23  | fix search in profile                    |    Khushi     |    Khushi    |
+| 24  | fixed nav bar in quiz - not showing      |    Khushi     |    Khushi    |
+        analytics and news                       |               |              |
+| 25  |  add item fixed                          |    Khushi     |    Khushi    |
+| 26  |  search item fixed                       |    Khushi     |    Khushi    |
 | 27  |                                          |               |              |
 | 28  |                                          |               |              |
 | 29  |                                          |               |              |
 | 30  |                                          |               |              |
+
