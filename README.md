@@ -46,7 +46,7 @@
 |     |                                          |               |              |
 | 4   | collection name typo in db.py changed to |     Avani     |    Avani     |                
 |     |  items                                   |               |              |
-| 5   |                                          |               |              |
+| 5   | items.html is missing a container        |   Guntesh     |   Guntesh    |
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |
