@@ -54,8 +54,8 @@
 | 7   |   added routers to main.py, fixed 
 
 prefixes                                         |   Avani       |     Avani    |
-| 8   |                                          |               |              |
-| 9   |                                          |               |              |
+| 8   | incorrect router declaration in items.py |  Vaishnavi    |   Vaishnavi  |
+| 9   | duplicate posting in items.py            |  Vaishnavi    |   Vaishnavi  |
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |

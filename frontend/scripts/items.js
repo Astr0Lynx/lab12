@@ -32,9 +32,6 @@ document.getElementById("search").addEventListener("input", (e) => {
   loadItems(e.target.value);
 });
 
-// Chocolate Question: Does React do Server-Side Rendering or Client-Side Rendering?
-//Nai >:(
-
 document.getElementById("itemForm").addEventListener("submit", async (e) => {
   e.preventDefault();
   const name = document.getElementById("name").value;
