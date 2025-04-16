@@ -80,8 +80,4 @@
         analytics and news                       |               |              |
 | 25  |  add item fixed                          |    Khushi     |    Khushi    |
 | 26  |  search item fixed                       |    Khushi     |    Khushi    |
-| 27  |                                          |               |              |
-| 28  |                                          |               |              |
-| 29  |                                          |               |              |
-| 30  |                                          |               |              |
 
