@@ -39,11 +39,11 @@
 |-----|------------------------------------------|---------------|--------------|
 | 1   | Style.css is not filled                  |    Avani      |    Avani     |
 | 2   | Total users doesnt increment             |    Khushi     |    Khushi    |
-| 3   | in index.html it should be  
-        <!DOCTYPE html> it currently has XHTML 
-        1.0 Strict which does not work with      |   Vaishnavi   |   Vaishnavi  |
-        <meta charset="ISO-8859-1" />                                         
-|     |                                          |
+| 3   | in index.html it should be               |               |              |
+|     |   <!DOCTYPE html> it currently has XHTML |               |              |
+|     |   1.0 Strict which does not work with    |   Vaishnavi   |   Vaishnavi  |
+|     |   <meta charset="ISO-8859-1" />          |               |              |
+|     |                                          |               |              |
 | 4   |                                          |               |              |
 | 5   |                                          |               |              |
 | 6   |                                          |               |              |
