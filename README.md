@@ -44,14 +44,12 @@
 |     |   1.0 Strict which does not work with    |   Vaishnavi   |   Vaishnavi  |
 |     |   <meta charset="ISO-8859-1" />          |               |              |
 |     |                                          |               |              |
-<<<<<<< HEAD
 | 4   | Analytics.html has incorrect path        |               |              |
 |     |  (styles/analytics.js)                   |   Nikhita     |   Nikhita    |
-=======
 | 4   | collection name typo in db.py changed to |     Avani     |    Avani     |                
 |     |  items                                   |               |              |
->>>>>>> 09c7a708a84dfc418903870419f5db0488415787
 | 5   |                                          |               |              |
+| 5   | items.html is missing a container        |   Guntesh     |   Guntesh    |
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |
