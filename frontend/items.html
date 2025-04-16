@@ -16,24 +16,24 @@
   </nav>
 
   <div class="container">
-    
-
-    <p>Total items: <span id="itemCount">0</span></p>
+    <p id="itemCount"></p>
 
     <input type="text" id="search" placeholder="Search items..." />
     <h1>📦 Manage Items</h1>
 
     <br /><br />
 
-    <input type="text" id="itemName" placeholder="Item Name" />
-    <input type="text" id="itemDesc" placeholder="Description" />
-    <button id="addItem">Add Item</button>
+    <form id="itemForm">
+      <input type="text" id="name" placeholder="Item Name" required />
+      <input type="text" id="description" placeholder="Description" required />
+      <button type="submit">Add Item</button>
+    </form>
 
     <ul id="itemList">
-      <!-- Items will be added here -->
+      <!-- Items will be dynamically added here -->
     </ul>
-
   </div>
+
   <script src="scripts/items.js"></script>
 </body>
 </html>
