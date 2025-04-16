@@ -27,14 +27,23 @@
 ### Add the names of the members and roll numbers of your team below
 
 - Name : Roll Number
+- Avani Sood, 2024111020
+- Vaishnavi - 2024101134
+- Khushi Dhingra - 2024101142
+- Guntesh Singh - 2024117004
+- Nikhita - 2024114003
 
 ### Table to keep track
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
-| 2   |                                          |               |              |
-| 3   |                                          |               |              |
+| 1   | Style.css is not filled                  |    Avani      |    Avani     |
+| 2   | Total users doesnt increment             |    Khushi     |    Khushi    |
+| 3   | in index.html it should be  
+        <!DOCTYPE html> it currently has XHTML 
+        1.0 Strict which does not work with      |   Vaishnavi   |   Vaishnavi  |
+        <meta charset="ISO-8859-1" />                                         
+|     |                                          |
 | 4   |                                          |               |              |
 | 5   |                                          |               |              |
 | 6   |                                          |               |              |
