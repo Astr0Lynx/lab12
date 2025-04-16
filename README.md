@@ -44,7 +44,8 @@
 |     |   1.0 Strict which does not work with    |   Vaishnavi   |   Vaishnavi  |
 |     |   <meta charset="ISO-8859-1" />          |               |              |
 |     |                                          |               |              |
-| 4   |                                          |               |              |
+| 4   | collection name typo in db.py changed to |     Avani     |    Avani     |                
+|     |  items                                   |               |              |
 | 5   |                                          |               |              |
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
